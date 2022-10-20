@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+  }
+  
+  body{
+      margin: 100px 0px;
+  }
+  
+  .input-form {
+    margin: auto;
+    text-align: center;
+    padding: 50px 50px 40px;
+    border-radius: 30px;
+  }
+  
+  #input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  #input label{
+      font-weight: 700;
+      font-size: 18px;
+  }
+  .input-form div {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  input[type="text" i] {
+    background-color: #c4c4c4;
+    border: 1px solid #616161;
+    padding: 6px;
+    height: 30px;
+    color: white;
+    width: 70%;
+    border-radius: 5px;
+  }
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  .input-form .button {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    padding-right: 273px;
+  }
+  input[type="submit" i] {
+    padding: 10px 20px;
+    background-color: #c4c4c4;
+    border: 2px solid #c4c4c4;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  input[type="submit" i]:hover{
+      background-color: #c4c4c4
+  }
+  .list {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    color: white;
+  }
+  .list thead {
+    background-color: #8d8d8d;
+  }
+  #datalist th, #datalist
+  td {
+    padding-left: 10px;
+    height: 40px;
+  }
+  #tbody {
+    color: black;
+  }
+  
+  #tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  #tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  #tbody a {
+    cursor: pointer;
+  }
+  #tbody a:hover{
+      color: #a7a7a7;
+  }

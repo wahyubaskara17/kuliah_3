@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 3 Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <table class="input-form">
+        <tr>
+          <td>
+            <form
+              action=""
+              id="input"
+              onsubmit="event.preventDefault();onFormSubmit();"
+              autocomplete="off"
+            >
+              <div class="nim">
+                <label for="">NIM :</label>
+                <input
+                  type="text"
+                  name="nim"
+                  id="nim"
+                  placeholder="masukkan Nim"
+                />
+              </div>
+              <div class="nama">
+                <label for="">Nama :</label>
+                <input
+                  type="text"
+                  name="nama"
+                  id="nama"
+                  placeholder="masukkan Nama"
+                />
+              </div>
+              <div class="button">
+                  
+                <input type="submit" value="Simpan" />
+              </div>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <table class="list" id="datalist">
+            <thead>
+              <tr>
+                <th>NO.</th>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </tr>
+      </table>
+  
+      <script src="script.js"></script>
+</body>
+</html>
